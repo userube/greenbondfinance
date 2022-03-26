@@ -1,0 +1,42 @@
+.btnLgCustom {
+    padding: 0.75rem 1.2rem;
+    font-size: 16px;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.btnGreenBond {
+    background-color: #769f0a;
+    border-color: #769f0a;
+}
+
+.btnGreenBond :hover {
+    color: #fff;
+    background-color: #769f0a;
+    border-color: #769f0a;
+}
+
+.btnGreenBondOutline {
+    border-color: #769f0a;
+    /* border: 0; */
+    color: #769f0a;
+}
+
+.btnGreenBondOutline :hover {
+    border-color: #769f0a !important;
+    color: #769f0a !important;
+    background-color: #fff !important;
+}
+
+.navActiveLinkGreenBond {
+    color: #769f0a !important;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.navLinkGreenBond {
+    /* color: #838d68 !important; */
+    color: #56613b !important;
+    font-size: 16px;
+    font-weight: 400;
+}

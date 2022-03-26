@@ -1,0 +1,17 @@
+.footerUl li {
+   
+    font-size: 12px;
+}
+
+.footerUl li a {
+    color: #6c757d;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.footerUl li a:hover{
+    color: #47522a;
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+}

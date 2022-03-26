@@ -1,0 +1,12 @@
+.sect {
+    margin-top: 8%;
+    padding: 5%;
+}
+
+.greenBondTxt {
+    color: #56613b;
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 60%;
+    font-weight: 500;
+}
