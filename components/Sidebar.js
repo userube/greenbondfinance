@@ -18,7 +18,7 @@ const Sidebar = () => {
             <nav id="sidebarMenu" className="col-md-3 col-lg-2 d-flex flex-column flex-shrink-0 p-3 text-white bg-dark" style={{ position: 'fixed', height: '-webkit-fill-available', zIndex: '9999'  }}>
                 
                 {/* <div classjName="position-sticky pt-3"> */}
-                    <Link href="/" className={`d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none text-center ${sidebarStyles.sidebarLogo}`}>
+                    <Link href="/" className={`d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none text-center ${sidebarStyles.sidebarLogo}`} passHref>
                         <a href="#" style={{ color: '#a2c546' }}>
                             {/* <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg> */}
                             
@@ -113,7 +113,7 @@ const Sidebar = () => {
                     </ul>
                     <hr style={{ backgroundColor: 'rgb(162, 197, 70)' }}/>
                     <div className="dropdown">
-                        <Link  href="#">
+                        <Link  href="#" passHref>
                             <a href="#" className="d-flex align-items-center text-white text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
                                 {/* <img src="https://github.com/mdo.png" alt="" width="32" height="32" > */}
                                 <Image src="/pf.jpg" alt="User" layout="fixed" width={32} height={32} className={`${sidebarStyles.customPf}`} style={{borderRadius: '50px', marginRight: '10px'}}/>
@@ -121,10 +121,10 @@ const Sidebar = () => {
                             </a>
                         </Link>
                         <ul className="dropdown-menu dropdown-menu-dark text-small shadow" aria-labelledby="dropdownUser1">
-                            <Link  href="#"><li><a className="dropdown-item" href="#">Settings</a></li></Link>
-                            <Link  href="#"><li><a className="dropdown-item" href="#">Profile</a></li></Link>
-                            <Link  href="#"><li><hr className="dropdown-divider"/></li></Link>
-                            <Link  href="#"><li><a className="dropdown-item text-danger" href="#">Sign out</a></li></Link>
+                            <Link  href="#" passHref><li><a className="dropdown-item" href="#">Settings</a></li></Link>
+                            <Link  href="#" passHref><li><a className="dropdown-item" href="#">Profile</a></li></Link>
+                            <Link  href="#" passHref><li><hr className="dropdown-divider"/></li></Link>
+                            <Link  href="#" passHref><li><a className="dropdown-item text-danger" href="#">Sign out</a></li></Link>
                         </ul>
                     </div>
                 {/* </div> */}
