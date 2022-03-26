@@ -10,7 +10,7 @@ const Footer = () => {
                     <div className="row">
                         <div className="col-lg-4">
                             <div>
-                                <Image src="/logo-horizontal.png" alt="GreenBond Financial Company" layout="fixed" width={200} height={40} alt="logo"/>
+                                <Image src="/logo-horizontal.png" alt="GreenBond Financial Company" layout="fixed" width={200} height={40}/>
                             </div>
                             <div>
 
