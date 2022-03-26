@@ -5,14 +5,14 @@ import Image from 'next/image';
 import loginStyles from '../styles/Login.module.css';
 import ButtonSpinner from '../components/ButtonSpinner';
 
-const login = () =>  {
+const Login = () =>  {
 	const [loginActive, setLoginActive] = useState(false);
 	const [loginDtls, setLoginDtls] = useState({
 		username: '',
 		password: ''
 	});
 
-	const Login = (e) => {
+	const LoginBtn = (e) => {
 		e.preventDefault();
 		setLoginActive(true);
 
@@ -48,7 +48,7 @@ const login = () =>  {
 
 								<h3 className='text-center mt-3 mb-3' style={{color: '#a8cf44'}}><strong>Sign In</strong></h3>
 
-								<form className="form" onSubmit={Login}>
+								<form className="form" onSubmit={LoginBtn}>
 									<div className="form-group mb-3">
 										<label htmlFor="email" className="form-label"><strong>Email or Username</strong></label>
 
@@ -91,4 +91,4 @@ const login = () =>  {
   	)
 }
 
-export default login
+export default Login
