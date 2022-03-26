@@ -10,7 +10,7 @@ const Footer = () => {
                     <div className="row">
                         <div className="col-lg-4">
                             <div>
-                                <Image src="/logo-horizontal.png" alt="GreenBond Financial Company" layout="fixed" width={200} height={40}/>
+                                <Image src="/logo-horizontal.png" alt="GreenBond Financial Company" layout="fixed" width={200} height={40} alt="logo"/>
                             </div>
                             <div>
 
@@ -54,17 +54,17 @@ const Footer = () => {
                             <h6 style={{ color: '#47522a'}}>Download</h6>
                             <div>
                                 <a className={`btn shadow btn-xs`} style={{ fontSize: '10px' }}>
-                                    <Image src="/apple-logo.png" layout="fixed" width={15} height={15}/>
+                                    <Image src="/apple-logo.png" layout="fixed" width={15} height={15} alt=""/>
                                     <span  style={{ padding: '0 0 0 10px', verticalAlign: 'text-bottom'}}>Get on iPhone</span>
                                 </a>
                                 <a className={`btn shadow btn-xs`} style={{ fontSize: '10px'}}>
-                                    <Image src="/google-play.png" layout="fixed" width={15} height={15}/>
+                                    <Image src="/google-play.png" layout="fixed" width={15} height={15} alt=""/>
                                     <span style={{ padding: '0 0 0 10px', verticalAlign: 'text-bottom'}}>
                                         Get On Android
                                     </span>
                                 </a>
                                 <a className={`btn shadow btn-xs`} style={{ fontSize: '10px' }}>
-                                    <Image src="/browser.png" layout="fixed" width={15} height={15}/>
+                                    <Image src="/browser.png" layout="fixed" width={15} height={15} alt=""/>
                                     <span style={{ padding: '0 0 0 10px', verticalAlign: 'text-bottom'}}>
                                         Use On Browser
                                     </span>
@@ -96,14 +96,14 @@ const Footer = () => {
                     <hr/>
                     <ul className="list-inline d-flex">
                         <li className="mr-3"><a href="">
-                            <Image src="/icons8-facebook-48.png" layout="fixed" width={30} height={30}/></a>
+                            <Image src="/icons8-facebook-48.png" layout="fixed" width={30} height={30} alt=""/></a>
                         </li>
                         <li className="mr-3"><a href="">
-                            <Image src="/icons8-twitter-48.png" layout="fixed" width={30} height={30}/>
+                            <Image src="/icons8-twitter-48.png" layout="fixed" width={30} height={30} alt=""/>
                             </a>
                         </li>
                         <li><a href="">
-                            <Image src="/icons8-instagram-48.png" layout="fixed" width={30} height={30}/>
+                            <Image src="/icons8-instagram-48.png" layout="fixed" width={30} height={30} alt=""/>
                             </a>
                         </li>
                     </ul>

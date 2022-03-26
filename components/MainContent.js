@@ -15,7 +15,7 @@ const MainContent = () => {
                         <div className='col-md-6'>
                             <div className="container">
                                 <div className="text-center">
-                                    <Image src="/phfl.png" layout="fixed" width={320} height={650}  />
+                                    <Image src="/phfl.png" layout="fixed" width={320} height={650} alt="" />
                                 </div>
                             </div>
                         </div>
@@ -77,7 +77,7 @@ const MainContent = () => {
                         <div className='col-md-5'>
                             <div className="container">
                                 <div className="text-center">
-                                    <Image src="/phfl.png" layout="fixed" width={320} height={650}  />
+                                    <Image src="/phfl.png" layout="fixed" width={320} height={650} alt=""  />
                                 </div>
                             </div>
                         </div>
@@ -91,7 +91,7 @@ const MainContent = () => {
                         <div className='col-md-5'>
                             <div className="container">
                                 <div className="text-center">
-                                    <Image src="/phfl.png" layout="fixed" width={320} height={650}  />
+                                    <Image src="/phfl.png" layout="fixed" width={320} height={650}  alt="" />
                                 </div>
                             </div>
                         </div>
@@ -142,17 +142,17 @@ const MainContent = () => {
 
                                     <div className="text-center mt-4">
                                         <a className={`btn shadow btn-lg ${navBarStyles.btnLgCustom} ${navBarStyles.btnGreenBondOutline}`}>
-                                            <Image src="/apple-logo.png" layout="fixed" width={20} height={20} class="mr-3"/>
+                                            <Image src="/apple-logo.png" layout="fixed" width={20} height={20} class="mr-3" alt="" />
                                             <span  style={{ padding: '0 0 0 10px', verticalAlign: 'text-bottom'}}>Get on iPhone</span>
                                         </a>
                                         <a className={`btn shadow btn-lg ${navBarStyles.btnLgCustom} ${navBarStyles.btnGreenBondOutline}`} style={{ marginLeft: '10px' }}>
-                                            <Image src="/google-play.png" layout="fixed" width={20} height={20}/>
+                                            <Image src="/google-play.png" layout="fixed" width={20} height={20} alt="" />
                                             <span style={{ padding: '0 0 0 10px', verticalAlign: 'text-bottom'}}>
                                                 Get On Android
                                             </span>
                                         </a>
                                         <a className={`btn shadow btn-lg ${navBarStyles.btnLgCustom} ${navBarStyles.btnGreenBondOutline}`} style={{ marginLeft: '10px' }}>
-                                            <Image src="/browser.png" layout="fixed" width={20} height={20}/>
+                                            <Image src="/browser.png" layout="fixed" width={20} height={20} alt=""/>
                                             <span style={{ padding: '0 0 0 10px', verticalAlign: 'text-bottom'}}>
                                                 Use On Browser
                                             </span>

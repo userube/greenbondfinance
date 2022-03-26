@@ -46,11 +46,11 @@ const BannerArea = () => {
 
                                     <div className="mt-4">
                                         <a className={`btn shadow btn-lg ${navBarStyles.btnLgCustom} ${navBarStyles.btnGreenBondOutline}`}>
-                                            <Image src="/apple-logo.png" layout="fixed" width={20} height={20} class="mr-3"/>
+                                            <Image src="/apple-logo.png" layout="fixed" width={20} height={20} class="mr-3" alt=""/>
                                             <span  style={{ padding: '0 0 0 10px', verticalAlign: 'text-bottom'}}>Get on iPhone</span>
                                         </a>
                                         <a className={`btn shadow btn-lg ${navBarStyles.btnLgCustom} ${navBarStyles.btnGreenBondOutline}`} style={{ marginLeft: '10px' }}>
-                                            <Image src="/google-play.png" layout="fixed" width={20} height={20}/>
+                                            <Image src="/google-play.png" layout="fixed" width={20} height={20} alt=""/>
                                             <span style={{ padding: '0 0 0 10px', verticalAlign: 'text-bottom'}}>
                                                 Get On Android
                                             </span>
@@ -62,7 +62,7 @@ const BannerArea = () => {
                         </div>
                         <div className='col-lg-4 col-md-5'>
                             <div className={`${bannerAreaStyles.phoneImg}`}>
-                                <Image src="/phfl.png" layout="fixed" width={300} height={600}  />
+                                <Image src="/phfl.png" layout="fixed" width={300} height={600} alt="" />
                             </div>
                         </div>
                     </div>

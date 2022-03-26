@@ -31,7 +31,7 @@ const Sidebar = () => {
                     <hr style={{ backgroundColor: 'rgb(162, 197, 70)' }}/>
                     <ul className="nav nav-pills flex-column mb-auto">
                         <li className="nav-item">
-                            <Link className="nav-link" href="#">
+                            <Link className="nav-link" href="#" passHref>
                                 <a className={`nav-link ${sidebarStyles.navLinkCustom} ${sidebarStyles.sideBarActive}`} aria-current="page" href="#">
                                     <BsFillGridFill className={`${sidebarStyles.sideBarIcon}`}/>
                                     <span className={`${sidebarStyles.verticalAlignTxtMiddle}`}>Dashboard</span>
@@ -39,7 +39,7 @@ const Sidebar = () => {
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" href="#">
+                            <Link className="nav-link" href="#" passHref>
                                 <a className={`nav-link ${sidebarStyles.navLinkCustom} `} aria-current="page" href="#">
                                     <BsBarChartFill className={`${sidebarStyles.sideBarIcon}`}/>
                                     <span className={`${sidebarStyles.verticalAlignTxtMiddle}`}>Investments</span>
@@ -47,7 +47,7 @@ const Sidebar = () => {
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" href="#">
+                            <Link className="nav-link" href="#" passHref>
                                 <a className={`nav-link ${sidebarStyles.navLinkCustom} `} aria-current="page" href="#">
                                     <BsFillPiggyBankFill className={`${sidebarStyles.sideBarIcon}`}/>
                                     <span className={`${sidebarStyles.verticalAlignTxtMiddle}`}>My Loans</span>
@@ -55,7 +55,7 @@ const Sidebar = () => {
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" href="#">
+                            <Link className="nav-link" href="#" passHref>
                                 <a className={`nav-link ${sidebarStyles.navLinkCustom} `} aria-current="page" href="#">
                                     <FaMoneyBillWave className={`${sidebarStyles.sideBarIcon}`}/>
                                     <span className={`${sidebarStyles.verticalAlignTxtMiddle}`}>Payments</span>
@@ -63,7 +63,7 @@ const Sidebar = () => {
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" href="#">
+                            <Link className="nav-link" href="#" passHref>
                                 <a className={`nav-link ${sidebarStyles.navLinkCustom} `} aria-current="page" href="#">
                                     <FaSyncAlt className={`${sidebarStyles.sideBarIcon}`}/>
                                     <span className={`${sidebarStyles.verticalAlignTxtMiddle}`}>Repayments</span>
@@ -71,7 +71,7 @@ const Sidebar = () => {
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" href="#">
+                            <Link className="nav-link" href="#" passHref>
                                 <a className={`nav-link ${sidebarStyles.navLinkCustom}`} aria-current="page" href="#">
                                     <FaWpforms className={`${sidebarStyles.sideBarIcon}`}/>
                                     <span className={`${sidebarStyles.verticalAlignTxtMiddle}`}>Apply for Loan</span>
@@ -79,7 +79,7 @@ const Sidebar = () => {
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" href="#">
+                            <Link className="nav-link" href="#" passHref>
                                 <a className={`nav-link ${sidebarStyles.navLinkCustom}`} aria-current="page" href="#">
                                     <BsCreditCardFill className={`${sidebarStyles.sideBarIcon}`}/>
                                     <span className={`${sidebarStyles.verticalAlignTxtMiddle}`}>Banks & Cards</span>
@@ -87,7 +87,7 @@ const Sidebar = () => {
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" href="#">
+                            <Link className="nav-link" href="#" passHref>
                                 <a className={`nav-link ${sidebarStyles.navLinkCustom}`} aria-current="page" href="#">
                                     <BsFillReplyAllFill className={`${sidebarStyles.sideBarIcon}`}/>
                                     <span className={`${sidebarStyles.verticalAlignTxtMiddle}`}>Transfers</span>
@@ -95,7 +95,7 @@ const Sidebar = () => {
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" href="#">
+                            <Link className="nav-link" href="#" passHref>
                                 <a className={`nav-link ${sidebarStyles.navLinkCustom} `} aria-current="page" href="#">
                                     <FaRegFilePdf className={`${sidebarStyles.sideBarIcon}`}/>
                                     <span className={`${sidebarStyles.verticalAlignTxtMiddle}`}>Documents</span>
@@ -103,7 +103,7 @@ const Sidebar = () => {
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" href="#">
+                            <Link className="nav-link" href="#" passHref>
                                 <a className={`nav-link ${sidebarStyles.navLinkCustom} `} aria-current="page" href="#">
                                     <FaQuestionCircle className={`${sidebarStyles.sideBarIcon}`}/>
                                     <span className={`${sidebarStyles.verticalAlignTxtMiddle}`}>Help</span>
